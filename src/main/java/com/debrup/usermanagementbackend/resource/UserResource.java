@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/user")
 public class UserResource {
 
-    @GetMapping("/user")
+    @GetMapping("/home")
     public String showUser(){
         return "Application Working....";
     }
