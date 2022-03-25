@@ -1,4 +1,6 @@
 package com.debrup.usermanagementbackend.domain;
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable {
 }
