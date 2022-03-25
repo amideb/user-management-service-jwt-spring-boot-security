@@ -21,6 +21,23 @@ public class User implements Serializable {
     private boolean isActive;
     private boolean isNotLocked;
 
+    public User(Long id, String userId, String firstName, String lastName, String userName, String password, String email, String profileImageUrl, Date lastLoginDate, Date lastLoginDateDisplay, Date joinDate, String[] roles, String[] authorities, boolean isActive, boolean isNotLocked) {
+        this.id = id;
+        this.userId = userId;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.userName = userName;
+        this.password = password;
+        this.email = email;
+        this.profileImageUrl = profileImageUrl;
+        this.lastLoginDate = lastLoginDate;
+        this.lastLoginDateDisplay = lastLoginDateDisplay;
+        this.joinDate = joinDate;
+        this.roles = roles;
+        this.authorities = authorities;
+        this.isActive = isActive;
+        this.isNotLocked = isNotLocked;
+    }
 
     // Getters and Setters
     public Long getId() {
