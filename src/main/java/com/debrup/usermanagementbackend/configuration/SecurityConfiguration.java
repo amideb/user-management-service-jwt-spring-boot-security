@@ -1,2 +1,4 @@
-package com.debrup.usermanagementbackend.configuration;public class SecurityConfiguration {
+package com.debrup.usermanagementbackend.configuration;
+
+public class SecurityConfiguration {
 }
